@@ -63,14 +63,17 @@ nav li {
     margin: 0;
 }
 
-.top-menu li:active {
-    color: #fefefe;
-    background: #29c5e6;
-}
-
 .top-menu a{
     color: #b2b2b2;
 }
+
+.top-menu li:active {
+    
+    background: #29c5e6;
+    color: #fff;
+}
+
+
 
 #heading {
     background: #e2e2e2;
@@ -88,6 +91,32 @@ h1 {
     padding: 0 10px;
 }
 
+aside {
+    float: left;
+    width: 250px;
+}
 
+section {
+    margin-left: 280px;
+    padding-bottom: 50px;
+}
+
+.aside-menu li {
+    font-weight: 500;
+    list-style-type: square;
+    border-top: 1px solid #e7e7e7;
     
+}
+
+.aside-menu li:first-child {
+    border:none;
+}
+
+.aside-menu li:active{
+    color: #29c5e6;
+}
+
+.aside-menu a {
+    color: #8f8f8f;
+}
 

@@ -67,7 +67,14 @@ nav li {
     color: #b2b2b2;
 }
 
-.top-menu li:active {
+.top-menu li:hover {
+    
+    background: #29c5e6;
+    opacity: 0.8;
+}
+
+
+.top-menu li.active {
     
     background: #29c5e6;
     color: #fff;
@@ -112,7 +119,7 @@ section {
     border:none;
 }
 
-.aside-menu li:active{
+.aside-menu li.active{
     color: #29c5e6;
 }
 

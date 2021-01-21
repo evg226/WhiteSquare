@@ -42,6 +42,10 @@ header {
     padding: 20px 0;
 }
 
+nav{
+    background-color: #f3f3f3;
+}
+
 nav a {
     text-decoration: none;
 }
@@ -127,3 +131,22 @@ section {
     color: #8f8f8f;
 }
 
+aside img {
+    width: 230px;
+    height: 180px;
+}
+
+aside > h2 {
+    background: #29c5e6;
+    font: 14px "Oswald", sans-serif;
+    color: #fff;
+    padding:10px;
+    margin: 30px 0 0 0;
+}
+
+aside > p {
+    background: #f3f3f3;
+    border: 1px #e7e7e7;
+    padding: 10px;
+    margin: 0;
+}

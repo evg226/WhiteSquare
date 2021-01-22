@@ -132,18 +132,17 @@ h1 {
     font-weight: 300;
     width: 304px;
     margin-bottom: 30px;
+    
 }
 
 .home-figure + .home-figure {
     margin-left: 19px;
 } 
 
-
-
 .home-figure-caption {
-    
     background: url(../images/h1bg.png);
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+ 
 }
 
 .home-figure-caption h3{
@@ -160,9 +159,15 @@ h1 {
     outline: 1px solid #c9c9c9;
     float: left;
 }
-.home-figure-text {
-    padding: 0 ;
-    
+
+.HFText {
+    margin-left: 155px ;
+}
+
+.home-figure a {
+    text-decoration: none;
+    color: #7e7e7e;
+
 }
 
 aside {

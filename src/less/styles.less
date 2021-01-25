@@ -1,24 +1,33 @@
 @import "bootstrap/bootstrap.less";
 @import "variables.less";
 
-p {
-    margin: 20px 0;
-}
 
-.form-control {
-    box-shadow: none;
-}
-
-.btn {
-    font-family: @brand-font;
-}
 
 body {
+
     border-top: 5px solid #7e7e7e;
     background: url(../img/bg.png);
-
+    p {
+        margin: 20px 0;
+    }
+    
+    .form-control {
+        box-shadow: none;
+    }
+    
+    .btn {
+        font-family: @brand-font;
+    }
+    
     .wrapper {
         padding: 0 0 50px 0;
+        header {
+            padding: 20px 0;
+
+            .form-search {
+                width: 200px;
+            }
+        }   
 
         .navbar a {
             text-transform: uppercase;
@@ -40,13 +49,45 @@ body {
                 display: inline-block;
             }
         }
-    }
 
-    header {
-        padding: 20px 0;
+        aside {
+            .submenu {
+                margin-bottom: 30px;
+                li {
+                    display:list-item;
+                    font: 300 14px @brand-font;
+                    list-style-position: inside;
+                    list-style-type: square;
+                    padding: 10px;
+                    text-transform: uppercase;
+                    
+                    &.active{
+                        color:@brand-primary;
+                    }
 
-        .form-search {
-            width: 200px;
-        }
-    }
+                    a {
+                        color: @text-color;
+                        text-decoration: none;
+                    }
+
+                    &.hover {
+                        color:@text-color;
+                    }
+                }
+            }
+
+            .panel {
+                box-shadow: none;
+                .panel-heading {
+                    font: 14px @brand-font;
+                    text-transform: uppercase;
+                    padding:10px;
+                }
+                .panel-body{
+                    padding: 10px;
+                    height: 150px;
+                }
+            }
+    }   }
+        
 }
